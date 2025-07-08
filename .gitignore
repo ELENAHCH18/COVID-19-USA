@@ -1,0 +1,9 @@
+# Carpetas y archivos que no se deben subir
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.parquet
+data/archived_data/
+COVID-19/csse_covid_19_data/
+COVID-19/who_covid_19_situation_reports/
