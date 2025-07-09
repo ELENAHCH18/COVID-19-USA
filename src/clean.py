@@ -1,13 +1,13 @@
 """
 clean.py
 --------
-Aquí definimos las Funciones de limpieza y enriquecimiento del DataFrame histórico
+Aquí defino las Funciones de limpieza y enriquecimiento del DataFrame histórico
 resultado del ETL de reportes COVID-19 EE. UU.
 """
 
 import pandas as pd
 
-# Columnas a borrar porque ya no las necesitas
+# Columnas a borrar porque no se necesitan
 DROP_COLS = ["Last_Update", "Date", "Lat", "Long_", "FIPS"]
 
 # Columnas que deben quedar en 0 si llegan nulas
